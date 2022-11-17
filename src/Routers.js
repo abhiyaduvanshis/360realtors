@@ -12,7 +12,7 @@ function Routers(){
             <Myhome />
             </Suspense>
             } />
-            <Route path="/newsdetails" element={
+            <Route path="/newsdetails/:id" element={
             <Suspense fallback={<div className="mylodar"><div className="imagediv"><img src="images/loder.gif"/></div></div>}>
             <Newsdetail />
             </Suspense>
