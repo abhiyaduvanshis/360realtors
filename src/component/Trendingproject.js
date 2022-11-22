@@ -1,10 +1,29 @@
 import React, { useState,useEffect } from "react";
-import { format, formatDistance, formatRelative, subDays } from 'date-fns';
 import priceformatter from "priceformatter";
+import OwlCarousel from 'react-owl-carousel';
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';
 import axios from 'axios'; 
-const baseURL = "https://timesproperty.360realtors.com/apitest/Apitest/trandingProject";
 
 function Trendingproject(){
+	const baseURL = "https://timesproperty.360realtors.com/apitest/Apitest/trandingProject";
+	const options =  {
+		loop: true,
+		margin: 10,
+		nav: true,
+		responsive: {
+			0: {
+				items: 1,
+			},
+			600: {
+				items: 3,
+			},
+			1000: {
+				items: 3,
+			},
+		}
+	};
+
 	let imge='';
 	const [property, setproperty] = useState(null);
 	useEffect(() => {
@@ -22,6 +41,7 @@ function Trendingproject(){
 				<div className="col-12 text-center">
 					<h2 className="section-title">Trending Projects</h2>
 				</div>
+				<OwlCarousel className='owl-theme owl-loading' loop={false} responsive={options.responsive} margin={10} >
 				{property.map((prop) => {
 					if(prop.image){
 					imge= "https://stagingstatic.360realtors.ws/properties/photos/"+prop.id+"/mini/"+prop.image;
@@ -30,7 +50,8 @@ function Trendingproject(){
 					}
 				return (
 				<>
-				<div className="col-lg-4 col-sm-6 mb-4"  key={prop.id}>
+				<div className="col-lg-12 col-sm-12 mb-4 item"   key={prop.length + 1}>
+					<a href={`/property/${prop.id}`}>
 					<div className="newsimage">
 					<img className="img-responsive" src={`${imge}`} />
 					</div>
@@ -46,10 +67,12 @@ function Trendingproject(){
                         <h3 className="price"> {priceformatter(prop.minprice)} - {priceformatter(prop.maxprice)} <span>Contact</span></h3>
                         </div>
 					</div>
+					</a>
 				</div>
 				</>
             	)	
 			})}	
+			</OwlCarousel>
 			</div>
 		</div>
 	</section>

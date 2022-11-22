@@ -17,7 +17,7 @@ function Searchhedar(){
                                     <a className="nav-link text-dark" href="/">Home</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link text-dark" href="/">News</a>
+                                    <a className="nav-link text-dark" href="/news">News</a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link text-dark" href="faq.html">About Us</a>

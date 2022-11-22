@@ -16,9 +16,7 @@ function Newsdetails(){
 		});
 	  }, []);
 	if (!post) return null;
-
     
-
     return(
         <>
             <Header/>
@@ -27,13 +25,14 @@ function Newsdetails(){
                     <div className="row justify-content-center" >
                         <div className="col-lg-8 col-sm-6 mb-8">
                             <div className="bg-white shadow d-block match-height">
-                                <div className="newsimage">
+                                <div  className="articaldetails">
                                 <img className="img-responsive" src={`https://stagingstatic.360realtors.ws/blog/${post.id}/${post.imgname}`} />
                                 </div>
                                 <div className="col-12 px-4 py-4">
                                     <h2>{post.title}</h2>
-                                    {post.content}
-                                    
+                            
+                                    <div dangerouslySetInnerHTML={{__html: post.content}} />
+
                                 </div>
                             </div>
                         </div>
