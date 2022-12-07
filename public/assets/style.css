@@ -250,9 +250,7 @@ select:focus {
   background: #100e0e;
 }
 
-.owl-carousel .owl-item img {
-  opacity: 0.5;
-}
+
 
 .devloperslider .owl-item img {
   opacity:1;
@@ -625,14 +623,14 @@ pre {
   display: block
 }
 
-.form-control {
+.bannersection .form-control {
   height: 50px;
   border-radius: 25px;
   border: 0;
   padding: 0 20px
 }
 
-.form-control:focus {
+.bannersection .form-control:focus {
   border: 0;
   box-shadow: none !important
 }
@@ -1010,4 +1008,34 @@ pre code::-webkit-scrollbar-thumb {
 
 .code-tabs .nav-tabs .nav-item.active .nav-link {
   color: var(--white-color)
+}
+.amenties {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 15px;
+  color: #6d6e70;
+  line-height: 17px;
+  font-weight: 600;
+  height: 60px;
+}
+.amenties .fa{background:url(../images/all_icon.png) no-repeat;width:35px;height:30px;display:inline-block;vertical-align:middle;background-size:100%}.amenties .fa:before{content:none}.amenties .fa-home{background-position:-2px -344px!important}.amenties .fa-bullseye{background-position:-2px -370px!important}.amenties .fa-basketball-ball{background-position:-1px -1114px!important}.amenties .fa-child{background-position:-1px -59px!important}.amenties .fa-dumbbell{background-position:-1px -77px!important}.amenties .fa-tree{background-position:-2px -447px!important}.amenties .fa-cloud-rain,.amenties .fa-gas-pump{background-position:-1px -869px!important}.amenties .fa-forklift{background-position:-1px -622px!important}.amenties .fa-globe-asia{background-position:-1px -844px!important}.amenties .fa-tennis-ball{background:url(../nw_images/all_icon.svg) no-repeat;width:35px;height:22px;display:inline-block;vertical-align:middle;background-size:100%;margin:0 auto;background-position:-1px -1116px!important}.amenties .fa-tennis-ball:before{content:none}.amenties .fa-credit-card{background-position:-1px -598px!important}.amenties .fa-running{background-position:-1px -672px!important}.amenties .fa-coffee{background-position:-1px -1091px!important}.amenties .fa-battery-full{background-position:-2px -976px!important}.amenties .fa-user{background-position:-1px -1064px!important}.amenties .fa-video{background-position:-1px -648px!important}.amenties .fa-person-booth{background-position:-1px -190px!important}.amenties .icon-food{background:url(../nw_images/all_icon.svg) no-repeat;width:35px;height:22px;display:inline-block;vertical-align:middle;background-size:100%;margin:0 auto;background-position:-1px -789px!important}.amenties .fa-utensils{background-position:-1px -789px!important}.amenties .fa-parking{background-position:-1px 3px!important}.amenties .fa-atom{background-position:-1px -526px!important}.amenties .fa-film{background-position:-1px -547px!important}.amenties .fa-building{background-position:-1px -574px!important}.amenties .fa-water{background-position:-1px -505px!important}.amenties .fa-braille,.amenties .fa-shopping-bag{background-position:-1px -526px!important}.amenties .fa-swinpool{background-position:-1px -421px!important}.amenties .fa-intercom{background-position:-1px -1009px!important}.amenties .fa-fire-extinguisher{background-position:-1px -707px!important}.amenties .fa-tint{background-position:-1px -505px!important}.amenties .fa-swimming-pool{background-position:-1px -421px!important}.fa.amn_club_house{background-position:-1px -344px!important;height:25px}.fa.amn_medi_cent{background-position:-1px -366px!important}.fa.amn_sport_faci{background-position:-1px -675px!important;height:25px!important}.fa.amn_kid_play{background-position:-1px -61px!important;height:20px}.fa.amn_swimpool{background-position:-1px -418px!important}.fa.amn_gym{background-position:-1px -77px!important;height:22px}.fa.amn_landscape_park{background-position:-1px -450px!important}.fa.amn_open_space{background-position:-1px -845px!important}.fa.amn_power_back{background-position:-1px -980px!important}.fa.amn_water_harvest{background-position:-1px -895px!important}.fa.amn_theatre{background-position:-1px -1585px!important}.fa.amn_hall{background-position:-1px -1580px!important}.fa.amn_security{background-position:-1px -645px!important}.fa.amn_sewage_plant{background-position:-1px -873px!important;height:22px}.fa.amn_play_court{background-position:-1px -392px!important}.fa.amn_earthquake_resistant{background-position:-1px -1170px!important}.fa.amn_jogging_track{background-position:-1px -155px!important}.fa.amn_tennis_court{background-position:-1px -1117px!important;height:25px}.fa.amn_coffee{background-position:-1px -1093px!important;height:28px}.fa.amn_water_supply{background-position:-1px -504px!important;height:25px}.fa.amn_parking{background-position:-1px 3px!important;height:22px}.fa.amn_vastu{background-position:-1px -1232px!important}.fa.amn_lift{background-position:-1px -622px!important;height:25px}.fa.amn_laundromat{background-position:-1px -1545px!important}.fa.amn_day_care{background-position:-1px -1645px!important}.fa.amn_staff{background-position:-1px -38px!important;height:24px}.fa.amn_golf_course{background-position:-1px -1415px!important}.fa.amn_gas_pipe{background-position:-1px -1510px!important}.fa.amn_relig_place{background-position:-1px -1036px!important}.fa.amn_3tr_security{background-position:-1px -1066px!important}.fa.amn_shop_bag{background-position:-1px -1200px!important}.fa.amn_fire_extinguisher{background-position:-1px -1141px!important}.fa.amn_intercom{background-position:-1px -1009px!important}.fa.amn_paved_compound{background-position:-1px -949px!important}.fa.amn_food_court{background-position:-1px -790px!important;height:25px}.fa.amn_wifi{background-position:-1px -211px!important;height:28px}.fa.amn_lounge{background-position:-1px -1356px!important}.fa.amn_confere_room{background-position:-1px -1387px!important}.fa.amn_restaurant{background-position:-1px -1449px!important}.fa.amn_water_plant{background-position:-1px -1480px!important}.fa.amn_atm{background-position:-1px -598px!important;height:25px}.fa.amn_esclator{background-position:-1px -1260px!important}.fa.amn_creche{background-position:-1px -1645px!important}.fa.amn_child_school{background-position:-1px -1325px!important}.fa.amn_24x7_security{background-position:-1px -645px!important}.fa.amn_gros_store{background-position:-1px -1292px!important}.fa.amn_kabana{background-position:-1px -1676px!important}.fa.amn_kabana{background-position:-1px -1680px!important}
+
+.specificationulli ul li {
+  font-size: 15px;
+  color: #6d6e70;
+  font-weight: 600;
+}
+
+.specificationulli ul {
+  list-style: disc;
+  margin: 0;
+  padding-left: 15px;
+}
+.commontbtnclr{
+  background: #a50740;
+}
+
+.commontbtnclr:hover{
+  background: #231f20;
 }

@@ -8,8 +8,6 @@ import Curaatedcollection from "./Curatedcollection";
 import Featuredcity from "./Featuredcity";
 import Projectdeveloper from "./Projectdeveloper";
 
-
-
 function Home(){
     return(
         <>
